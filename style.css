@@ -38,7 +38,7 @@ body {
 .flag__birthday{
     display: flex;
     justify-content: space-between;
-    transform: translateY(-200px);
+    transform: translateY(-300px);
     animation: translateYFlag 1.5s 2s forwards;
 }
 @keyframes translateYFlag{
@@ -47,10 +47,10 @@ body {
     }
 }
 .flag__birthday .flag__left{
-    transform: rotate(-10deg) translate(-20px,30px);
+    transform: rotate(-10deg) translate(-30px,40px);
 }
 .flag__birthday .flag__right{
-    transform: rotate(10deg) translate(20px,30px) scaleX(-1);
+    transform: rotate(10deg) translate(30px,40px) scaleX(-1);
 }
 .content{
     width: 100%;
@@ -164,7 +164,7 @@ body {
 .title .hat{
     position: absolute;
     right: 45px;
-    top: -350px;
+    top: -400px;
     transform: rotate(-40deg);
     z-index: -1;
     animation: topHat 4s 7s forwards ease;
@@ -251,8 +251,8 @@ body {
 }
 .content .right .image{
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
