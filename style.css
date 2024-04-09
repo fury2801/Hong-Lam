@@ -128,7 +128,7 @@ body {
     font-family: "Titan One", sans-serif;
     font-size: 3rem;
     flex-direction: column;
-    perspective: 1000px;
+    perspective: 1500px;
 }
 .title .happy, .title .birthday{
     position: relative;
@@ -252,7 +252,7 @@ body {
 .content .right .image{
     position: relative;
     width: 600px;
-    height: 600px;
+    height: 900px;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
