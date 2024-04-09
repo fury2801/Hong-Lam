@@ -164,7 +164,7 @@ body {
 .title .hat{
     position: absolute;
     right: 45px;
-    top: -400px;
+    top: -350px;
     transform: rotate(-40deg);
     z-index: -1;
     animation: topHat 4s 7s forwards ease;
@@ -251,8 +251,8 @@ body {
 }
 .content .right .image{
     position: relative;
-    width: 600px;
-    height: 900px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
@@ -467,7 +467,7 @@ body {
 .box__letter .letter__border{
     position: absolute;
     width: 55vw;
-    height: 450px;
+    height: 600px;
     background-color: var(--color-white);
     border-radius: 27px;
     padding: 17px;
